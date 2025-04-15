@@ -1,0 +1,13 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: white;
+}
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: black;
+}
