@@ -1,18 +1,23 @@
-<<<<<<< HEAD
 @media (max-width: 480px) {
+    * {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background: white;
+    }
+    .sm {
+        width: 3em;
+        float: left;
+        margin: 10% 
+        display: inline-block;
+        position: relative;
+    }
+    #home {
+        max-width: 100%;
+        height: auto !important;
+        margin: 0 auto;
+        width: 80%;
+    }
 }
-=======
-* {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-body {
-    background: white;
-}
-h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 4em;
-    color: black;
-}
->>>>>>> b1c5559b515b44ecaa92f8b2d9f2bbb83cae1c4c
