@@ -2,6 +2,7 @@
   h1 {
     font-size: 2em;
   }
+
   button {
     display: none;
   }
@@ -16,7 +17,7 @@
     flex-direction: row;
     gap: 1em;
   }
-  
+
   #body {
     display: grid;
     grid-template: auto auto / 1fr 1fr 1fr;

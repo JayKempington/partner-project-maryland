@@ -1,7 +1,14 @@
 @media (min-width: 1441px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   h1 {
     font-size: 2em;
-  
+  }
+
   button {
     display: none;
   }
