@@ -4,12 +4,10 @@ let displayed = false;
 
 hamburger.addEventListener("click", () => {
   if (!displayed) {
-    nav.style.display = "block";
-    nav.style.left = "80%";
+    nav.classList.add("display-nav");
     displayed = true;
   } else {
-    nav.style.display = "none";
-    nav.style.left = "150%";
+    nav.classList.remove("display-nav");
     displayed = false;
   }
 });

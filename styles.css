@@ -2,18 +2,22 @@
   border: 0;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: none;
 }
+
 body {
-  background: white;
-  height: 100vh;
+  background: linear-gradient(to bottom right, #fff, 80%, #80002055);
   width: 100vw;
 }
+
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
+
 header {
-  padding: 0.1em 0.5em;
+  padding: 0.1em 2em;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -52,11 +56,16 @@ button {
 
 nav {
   position: absolute;
+  top: 57.95px;
   left: 150%;
-  top: 80px;
   display: none;
 
   background-color: #800020;
+}
+
+.display-nav {
+  display: block;
+  left: calc(100vw - 97.6px);
 }
 
 nav ul {
@@ -74,4 +83,45 @@ nav a {
   color: white;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+nav li:hover {
+  background-color: #4d0013;
+}
+
+header + img {
+  margin-bottom: 1em;
+  width: 100vw;
+  object-fit: contain;
+}
+
+h2 {
+  font-size: 1.2em;
+  padding: 1em;
+  margin-left: 1em;
+  margin-bottom: 1em;
+  width: 85%;
+}
+
+#students,
+#clubs,
+#programs,
+footer {
+  padding: 1em;
+}
+
+#students,
+#clubs p {
+  margin-bottom: 2em;
+}
+
+#programs ul {
+  margin-left: 2em;
+  list-style-type: none;
+  font-weight: 600;
+}
+
+footer {
+  background: #800020;
+  color: white;
 }

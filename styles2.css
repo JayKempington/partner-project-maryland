@@ -1,2 +1,27 @@
-@media (max-width: 968px) {
+@media (max-width: 968px) and (min-width: 521px) {
+  #body {
+    display: grid;
+    grid-template: auto auto / 1fr 1fr;
+  }
+
+  h2 {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.65em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  ul {
+    font-size: 1.2em;
+  }
+
+  #students {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+
+  #clubs {
+    grid-area: 2 / 2 / 3 / 3;
+  }
 }
