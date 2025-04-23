@@ -1,16 +1,46 @@
 @media (min-width: 1441px) {
-        * {
-            border: 0;
-            margin: 0;
-            padding: 0;
-        }
-        body {
-            background: white;
-        }
-        #sm {
-            width: 10%;
-        }
-        .logo {
-           width: 80%;
-        }
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    display: none;
+  }
+
+  nav {
+    display: block;
+    position: initial;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  #body {
+    display: grid;
+    grid-template: auto / 1fr 1fr 1fr 1fr;
+  }
+
+  h2 {
+    grid-area: 1 / 1 / 2 / 2;
+    font-size: 1.65em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  ul {
+    font-size: 1.2em;
+  }
+
+  #students {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  #clubs {
+    grid-area: 1 / 3 / 2 / 4;
+  }
 }

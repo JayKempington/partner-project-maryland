@@ -17,7 +17,7 @@ h1 {
 }
 
 header {
-  padding: 0.1em 2em;
+  padding: 0.8em 0.5em;
   display: flex;
   gap: 15px;
   align-items: center;
@@ -52,6 +52,7 @@ header img {
 
 button {
   background-color: #00000000;
+  display: block;
 }
 
 nav {
@@ -110,9 +111,9 @@ footer {
   padding: 1em;
 }
 
-#students,
+#students p,
 #clubs p {
-  margin-bottom: 2em;
+  margin-bottom: 1.2em;
 }
 
 #programs ul {
